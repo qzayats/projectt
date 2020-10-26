@@ -1,5 +1,10 @@
+import pygame
 def printNames():
     print("Quentin Zayats:Back End")
     print("______________:Front End")
     print("______________:Software Lead")
-printNames()
+
+def main():
+	printNames()
+	pygame.init()
+main()
